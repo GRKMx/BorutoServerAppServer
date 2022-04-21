@@ -10,8 +10,8 @@ import io.ktor.server.testing.*
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
+import org.junit.Test
 import org.koin.java.KoinJavaComponent.inject
-import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class ApplicationTest {
